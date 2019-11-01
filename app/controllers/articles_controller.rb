@@ -14,7 +14,7 @@ class ArticlesController < ApplicationController
 
   def new
     @article = Article.new
-    puts 'hello'
+    puts 'helloweijj'
   end
 
   def edit
