@@ -14,6 +14,7 @@ class ArticlesController < ApplicationController
 
   def new
     @article = Article.new
+    puts "I'm hungry"
   end
 
   def edit
