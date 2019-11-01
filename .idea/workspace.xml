@@ -38,6 +38,7 @@
   <component name="ProjectId" id="1Sb8zhx83e8odsmVa2W7JTBESAI" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/宠物论坛--data_system/data_system" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
