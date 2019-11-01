@@ -1,0 +1,55 @@
+<div class="header">
+<h1>Listing articles</h1>
+</div>
+
+<div class="topnav">
+  <%= link_to 'New article', new_article_path %>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <% @articles.reverse_each do |article| %>
+    <div class="card">
+      <h2><%= article.title %></h2>
+      <h5><%= article.created_at %></h5>
+      <div class="fakeimg" style="height:200px;" >
+        <img src="<%=asset_path(article.article_img) %>" style=" height: 100%;width: 100%;"/>
+      </div>
+      <p>一些文本...</p>
+      <p><%= article.text %></p>
+      <%= link_to 'Show', article %>
+      <%= link_to 'Edit', edit_article_path(article) %>
+      <%= link_to 'Destroy', article_path(article),
+                  method: :delete,
+                  data: { confirm: 'Are you sure?' } %>
+    </div>
+    <% end %>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>关于我</h2>
+      <div class="fakeimg" style="height:100px;">图片</div>
+      <p>关于我的一些信息..</p>
+    </div>
+    <div class="card">
+      <h3>热门文章</h3>
+      <div class="fakeimg"><p>图片</p></div>
+      <div class="fakeimg"><p>图片</p></div>
+      <div class="fakeimg"><p>图片</p></div>
+    </div>
+    <div class="card">
+      <h3>关注我</h3>
+      <p>一些文本...</p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h2>底部区域</h2>
+</div>
+
+
+
+
+
+
+
