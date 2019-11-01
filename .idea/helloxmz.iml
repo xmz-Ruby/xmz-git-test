@@ -51,6 +51,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bower-rails (v0.11.0, Remote: ruby-2.6.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="breadcrumbs_on_rails (v3.0.1, Remote: ruby-2.6.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, Remote: ruby-2.6.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.17.2, Remote: ruby-2.6.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v11.0.1, Remote: ruby-2.6.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cancancan (v3.0.1, Remote: ruby-2.6.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v3.19.1, Remote: ruby-2.6.0-p0) [gem]" level="application" />
