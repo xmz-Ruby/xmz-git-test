@@ -15,6 +15,7 @@ class ArticlesController < ApplicationController
 
   def new
     @article = Article.new
+    puts "nihao"
   end
 
   def edit
