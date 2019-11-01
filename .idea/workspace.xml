@@ -200,7 +200,23 @@
       <workItem from="1572329056191" duration="679000" />
       <workItem from="1572396425684" duration="22354000" />
       <workItem from="1572482474124" duration="9036000" />
+      <workItem from="1572598529460" duration="271000" />
     </task>
+    <task id="LOCAL-00001" summary="articles_controller.rb">
+      <created>1572598597488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572598597488</updated>
+    </task>
+    <task id="LOCAL-00002" summary="articles_controller.rb">
+      <created>1572598740709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572598740709</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -220,7 +236,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
