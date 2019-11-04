@@ -13,13 +13,12 @@ class CommentsController < ApplicationController
     # puts params.require(:comment).permit(:commenter, :body)
     # {"commenter"=>"Maisiteng", "body"=>"鍏徃鍙戠殑"}
     # puts @comment.inspect
-    #<Comment id: 16, commenter: "Maisiteng", body: "鐨勬拻鏃�", article_id: 3, created_at: "2019-10-30 03:26:01", updated_at: "2019-10-30 03:26:01">
+    # <Comment id: 16, commenter: "Maisiteng", body: "鐨勬拻鏃�", article_id: 3, created_at: "2019-10-30 03:26:01", updated_at: "2019-10-30 03:26:01">
     redirect_to article_path(@article)
-
   end
 
   def destroy
-    #render plain: params.inspect
+    # render plain: params.inspect
     @article = Article.find(params[:article_id])
     @comment = @article.comments.find(params[:id])
     @comment.destroy
@@ -27,6 +26,7 @@ class CommentsController < ApplicationController
   end
 
   private
+
   def comment_params
     params.require(:comment).permit(:commenter, :body)
   end
