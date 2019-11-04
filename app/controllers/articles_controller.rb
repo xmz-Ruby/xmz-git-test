@@ -10,12 +10,12 @@ class ArticlesController < ApplicationController
 
   def show
     @article = Article.find(params[:id])
-    puts "hello"
+    puts "hello这里时test"
   end
 
   def new
     @article = Article.new
-    puts "nihao"
+    puts "nihao你冲突了吗"
   end
 
   def edit
