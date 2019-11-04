@@ -1,0 +1,67 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 2bbfd27f0b355dfdace0de49c422680399bee630)
++++ .idea/workspace.xml	(date 1572599994180)
+@@ -20,6 +20,35 @@
+       </list>
+     </option>
+   </component>
++  <component name="Git.Settings">
++    <excluded-from-favorite>
++      <branch-storage>
++        <map>
++          <entry type="REMOTE">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </excluded-from-favorite>
++    <favorite-branches>
++      <branch-storage>
++        <map>
++          <entry type="REMOTE">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="origin/testing" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </favorite-branches>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
+   <component name="LogFilters">
+     <option name="FILTER_ERRORS" value="false" />
+     <option name="FILTER_WARNINGS" value="false" />
+@@ -34,7 +63,7 @@
+     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/宠物论坛--data_system/data_system" />
+     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
++    <property name="settings.editor.selected.configurable" value="settings.github" />
+   </component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+Index: app/controllers/articles_controller.rb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/controllers/articles_controller.rb	(revision 2bbfd27f0b355dfdace0de49c422680399bee630)
++++ app/controllers/articles_controller.rb	(date 1572599890558)
+@@ -14,6 +14,7 @@
+ 
+   def new
+     @article = Article.new
++    puts "I'm hungry"
+   end
+ 
+   def edit
